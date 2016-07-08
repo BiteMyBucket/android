@@ -145,6 +145,8 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
             String authority, ContentProviderClient providerClient,
             SyncResult syncResult) {
 
+        if (!shouldSync()) return;
+
         mCancellation = false;
         mIsManualSync = extras.getBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, false);
         mFailedResultsCounter = 0;
@@ -216,7 +218,57 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
         }
         
     }
-    
+
+    private boolean shouldSync() {
+        if (!syncOnlyOnWifi()) return true;
+        if (syncOnlyOnWifi() && !isOnWifi()) return false;
+
+        boolean shouldSync = false;
+        String currentSsid = getCurrentSsid();
+
+        if (isWhitelisted(currentSsid)) shouldSync = true;
+        if (isBlacklisted(currentSsid)) shouldSync = false;
+
+        return shouldSync;
+    }
+
+    private List<String> getWhitelistedSsids() {
+        return new ArrayList<String>(0);
+    }
+
+    private List<String> getBlacklistedSsids() {
+        return new ArrayList<String>(0);
+    }
+
+    private boolean isWhitelisted(String currentSsid) {
+        for (String ssid : getWhitelistedSsids()) {
+            if (currentSsid.equals(ssid)) return true;
+        }
+
+        return false;
+    }
+
+    private boolean isBlacklisted(String currentSsid) {
+        for (String ssid : getBlacklistedSsids()) {
+            if (currentSsid.equals(ssid)) return true;
+        }
+
+        return false;
+    }
+
+    private boolean syncOnlyOnWifi() {
+        return false;
+    }
+
+    private boolean isOnWifi() {
+        return true;
+    }
+
+    private String getCurrentSsid() {
+        return "";
+    }
+
+
     /**
      * Called by system SyncManager when a synchronization is required to be cancelled.
      * 

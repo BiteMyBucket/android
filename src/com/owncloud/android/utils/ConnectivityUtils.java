@@ -23,7 +23,11 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import com.owncloud.android.lib.common.utils.Log_OC;
+
+import static android.content.Context.WIFI_SERVICE;
 
 public class ConnectivityUtils {
 
@@ -37,6 +41,13 @@ public class ConnectivityUtils {
                 && cm.getActiveNetworkInfo().getState() == NetworkInfo.State.CONNECTED;
         Log_OC.d(TAG, "is AppConnectedViaWifi returns " + result);
         return result;
+    }
+
+    public static String getCurrentSsid(Context context) {
+        WifiManager wifiManager = (WifiManager) context.getSystemService(WIFI_SERVICE);
+        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+
+        return wifiInfo.getSSID();
     }
 
     public static boolean isAppConnected(Context context) {

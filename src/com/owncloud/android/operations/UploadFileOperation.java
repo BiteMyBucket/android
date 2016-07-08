@@ -244,6 +244,9 @@ public class UploadFileOperation extends SyncOperation {
         return mCreatedBy == CREATED_AS_INSTANT_VIDEO;
     }
 
+    public boolean isSsidRestricted() {
+        return
+    }
     public void setOCUploadId(long id){
         mOCUploadId = id;
     }
@@ -293,6 +296,7 @@ public class UploadFileOperation extends SyncOperation {
         try {
 
             /// Check that connectivity conditions are met and delays the upload otherwise
+            //Todo sander 1: kode her
             if (delayForWifi()) {
                 Log_OC.d(TAG, "Upload delayed until WiFi is available: " + getRemotePath());
                 return new RemoteOperationResult(ResultCode.DELAYED_FOR_WIFI);
@@ -454,6 +458,7 @@ public class UploadFileOperation extends SyncOperation {
      * @return      'True' if the upload was delayed until WiFi connectivity is available, 'false' otherwise.
      */
     private boolean delayForWifi() {
+        //Todo sander 1: kode her
         boolean delayInstantPicture = (
             isInstantPicture() &&  PreferenceManager.instantPictureUploadViaWiFiOnly(mContext)
         );
