@@ -361,4 +361,6 @@ Allpool on loend kohalikest failidest ning serveris asuvatest failidest %5$s, mi
   <string name="manage_space_title">Ruumi haldamine</string>
   <string name="manage_space_clear_data">Tühjenda andmed</string>
   <string name="manage_space_error">Mõningate failide kustutamine ebaõnnestus.</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

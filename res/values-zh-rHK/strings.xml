@@ -78,4 +78,6 @@
   <string name="share_search">尋找</string>
   <string name="share_privilege_can_edit_create">新增</string>
   <string name="share_privilege_can_edit_delete">刪除</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

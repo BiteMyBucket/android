@@ -369,4 +369,6 @@
   <string name="manage_space_error">Joitain tiedostoja ei voitu poistaa.</string>
   <string name="permission_storage_access">Tiedostojen lataaminen ja lähetys vaatii lisäoikeuksia.</string>
   <string name="local_file_not_found_toast">Tiedostoa ei löytynyt paikallisesta tiedostojärjestelmästä</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

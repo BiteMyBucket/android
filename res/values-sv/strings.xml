@@ -410,4 +410,6 @@
   <string name="manage_space_error">Vissa filer kunde inte raderas.</string>
   <string name="permission_storage_access">Ytterligare rättigheter krävs för att ladda upp &amp; ner filer.</string>
   <string name="local_file_not_found_toast">Filen hittades inte i det lokala filsystemet</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

@@ -139,4 +139,6 @@
   <string name="prefs_category_accounts">Cuentas</string>
   <string name="folder_picker_choose_button_text">Choose</string>
   <string name="prefs_category_details">detalles</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

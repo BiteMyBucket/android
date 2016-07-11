@@ -201,4 +201,6 @@
   <string name="share_privilege_can_edit">có thể chỉnh sửa</string>
   <string name="share_privilege_can_edit_create">tạo</string>
   <string name="share_privilege_can_edit_delete">xóa</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

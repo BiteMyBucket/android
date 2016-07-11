@@ -9,4 +9,6 @@
     <string name="drawer_item_on_device">On device</string>-->
   <string name="sync_string_files">ഫയലുകൾ</string>
   <string name="empty"></string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

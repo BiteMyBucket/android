@@ -411,4 +411,6 @@
   <string name="manage_space_error">Ca kartela s’u fshinë dot.</string>
   <string name="permission_storage_access">Që të ngarkoni &amp; shkarkoni kartela lypsen leje shtesë.</string>
   <string name="local_file_not_found_toast">Kartela s’u gjet te sistemi vendor i kartelave</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

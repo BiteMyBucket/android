@@ -33,7 +33,9 @@
 	    <com.owncloud.android.ui.CheckBoxPreferenceWithLongTitle
 	        				android:title="@string/instant_upload_on_wifi"
 	        				android:key="instant_upload_on_wifi"/>
-		<!-- Todo sander 1: XML her -->
+		<com.owncloud.android.ui.PreferenceWithLongSummary
+				android:title="@string/instant_upload_on_wifi_ssid_restriction"
+				android:key="instant_upload_on_wifi_ssid_restriction"/>
 
 	    <com.owncloud.android.ui.CheckBoxPreferenceWithLongTitle android:key="instant_video_uploading"
 	                        android:title="@string/prefs_instant_video_upload"
@@ -48,7 +50,10 @@
 	    <com.owncloud.android.ui.CheckBoxPreferenceWithLongTitle
 	        				android:title="@string/instant_video_upload_on_wifi"
 	        				android:key="instant_video_upload_on_wifi"/>
-		<!-- Todo sander 1: XML her -->
+		<com.owncloud.android.ui.PreferenceWithLongSummary
+				android:title="@string/instant_video_upload_on_wifi_ssid_restriction"
+				android:key="instant_video_upload_on_wifi_ssid_restriction"/>
+
 		<com.owncloud.android.ui.dialog.OwnCloudListPreference android:key="prefs_instant_behaviour"
 			android:dialogTitle="@string/prefs_instant_behaviour_dialogTitle"
 			android:title="@string/prefs_instant_behaviour_title"

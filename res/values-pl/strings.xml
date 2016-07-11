@@ -413,4 +413,6 @@
   <string name="manage_space_error">Nie udało się usunąć niektórych plików.</string>
   <string name="permission_storage_access">Dodatkowe uprawnienia do wysyłania i ściągania plików.</string>
   <string name="local_file_not_found_toast">Plik nie został znaleziony w lokalnym systemie plików</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

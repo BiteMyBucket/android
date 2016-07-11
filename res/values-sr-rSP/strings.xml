@@ -80,4 +80,6 @@
   <string name="share_privilege_can_edit_create">napravi</string>
   <string name="share_privilege_can_edit_change">izmeni</string>
   <string name="share_privilege_can_edit_delete">brisanje</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

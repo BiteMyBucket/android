@@ -2,4 +2,6 @@
 <resources>
   <string name="common_error">خرابی</string>
   <string name="empty"></string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

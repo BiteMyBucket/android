@@ -23,4 +23,6 @@
   <string name="share_privilege_can_edit">ပြင်ဆင်နိုင်</string>
   <string name="share_privilege_can_edit_create">ဖန်တီးမည်</string>
   <string name="share_privilege_can_edit_delete">ဖျက်မည်</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

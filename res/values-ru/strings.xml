@@ -413,4 +413,6 @@
   <string name="manage_space_error">Некоторые файлы не могут быть удалены.</string>
   <string name="permission_storage_access">Для загрузки и скачивания файлов требуются дополнительные права.</string>
   <string name="local_file_not_found_toast">Файл не был найден в локальной файловой системе</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

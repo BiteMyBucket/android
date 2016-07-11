@@ -291,4 +291,6 @@
   <string name="manage_space_title">Administri spacon</string>
   <string name="manage_space_clear_data">Forviŝi datumojn</string>
   <string name="manage_space_error">Kelkaj dosieroj ne povis foriĝi.</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

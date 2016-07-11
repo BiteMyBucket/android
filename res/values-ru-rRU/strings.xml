@@ -145,4 +145,6 @@
   <string name="conflict_keep_both">Сохранить оба</string>
   <string name="conflict_overwrite">Перезаписать</string>
   <string name="conflict_dont_upload">Не загружать</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

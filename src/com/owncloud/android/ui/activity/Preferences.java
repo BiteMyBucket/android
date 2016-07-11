@@ -83,10 +83,14 @@ public class Preferences extends PreferenceActivity {
     private Preference mPrefInstantUploadPath;
     private Preference mPrefInstantUploadUseSubfolders;
     private Preference mPrefInstantUploadPathWiFi;
+    private Preference mPrefInstantUploadSsidRestriction;
+
     private Preference mPrefInstantVideoUpload;
     private Preference mPrefInstantVideoUploadPath;
     private Preference mPrefInstantVideoUploadUseSubfolders;
     private Preference mPrefInstantVideoUploadPathWiFi;
+    private Preference mPrefInstantVideoUploadSsidRestriction;
+
     private String mUploadVideoPath;
 
     @SuppressWarnings("deprecation")
@@ -292,6 +296,7 @@ public class Preferences extends PreferenceActivity {
         mPrefInstantUploadUseSubfolders = findPreference("instant_upload_path_use_subfolders");
         mPrefInstantUploadPathWiFi =  findPreference("instant_upload_on_wifi");
         mPrefInstantUpload = findPreference("instant_uploading");
+        mPrefInstantUploadSsidRestriction = findPreference("instant_upload_on_wifi_ssid_restriction");
         
         toggleInstantPictureOptions(((CheckBoxPreference) mPrefInstantUpload).isChecked());
         
@@ -328,6 +333,7 @@ public class Preferences extends PreferenceActivity {
         mPrefInstantVideoUploadUseSubfolders = findPreference("instant_video_upload_path_use_subfolders");
         mPrefInstantVideoUploadPathWiFi =  findPreference("instant_video_upload_on_wifi");
         mPrefInstantVideoUpload = findPreference("instant_video_uploading");
+        mPrefInstantVideoUpload = findPreference("instant_video_on_wifi_ssid_restriction");
         toggleInstantVideoOptions(((CheckBoxPreference) mPrefInstantVideoUpload).isChecked());
         
         mPrefInstantVideoUpload.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
@@ -364,10 +370,12 @@ public class Preferences extends PreferenceActivity {
             mPrefInstantUploadCategory.addPreference(mPrefInstantUploadPathWiFi);
             mPrefInstantUploadCategory.addPreference(mPrefInstantUploadPath);
             mPrefInstantUploadCategory.addPreference(mPrefInstantUploadUseSubfolders);
+            mPrefInstantUploadCategory.addPreference(mPrefInstantUploadSsidRestriction);
         } else {
             mPrefInstantUploadCategory.removePreference(mPrefInstantUploadPathWiFi);
             mPrefInstantUploadCategory.removePreference(mPrefInstantUploadPath);
             mPrefInstantUploadCategory.removePreference(mPrefInstantUploadUseSubfolders);
+            mPrefInstantUploadCategory.removePreference(mPrefInstantUploadSsidRestriction);
         }
     }
     
@@ -376,10 +384,12 @@ public class Preferences extends PreferenceActivity {
             mPrefInstantUploadCategory.addPreference(mPrefInstantVideoUploadPathWiFi);
             mPrefInstantUploadCategory.addPreference(mPrefInstantVideoUploadPath);
             mPrefInstantUploadCategory.addPreference(mPrefInstantVideoUploadUseSubfolders);
+            mPrefInstantUploadCategory.addPreference(mPrefInstantVideoUploadSsidRestriction);
         } else {
             mPrefInstantUploadCategory.removePreference(mPrefInstantVideoUploadPathWiFi);
             mPrefInstantUploadCategory.removePreference(mPrefInstantVideoUploadPath);
             mPrefInstantUploadCategory.removePreference(mPrefInstantVideoUploadUseSubfolders);
+            mPrefInstantUploadCategory.removePreference(mPrefInstantVideoUploadSsidRestriction);
         }
     }
 

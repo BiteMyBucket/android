@@ -14,4 +14,6 @@
   <string name="common_error">Памылка</string>
   <string name="empty"></string>
   <string name="folder_picker_choose_button_text">Выбар</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

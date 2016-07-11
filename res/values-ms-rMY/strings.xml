@@ -64,4 +64,6 @@
   <string name="share_search">Cari</string>
   <string name="share_privilege_can_share">boleh berkongsi</string>
   <string name="share_privilege_can_edit">boleh mengubah</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

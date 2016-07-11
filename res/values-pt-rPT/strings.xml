@@ -409,4 +409,6 @@
   <string name="manage_space_error">Alguns ficheiros não podem ser apagados.</string>
   <string name="permission_storage_access">São necessárias permissões adicionais para carregar &amp; descarregar ficheiros.</string>
   <string name="local_file_not_found_toast">O ficheiro não foi encontrado no sistema de ficheiros local</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

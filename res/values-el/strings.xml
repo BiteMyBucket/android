@@ -382,4 +382,6 @@
   <string name="manage_space_clear_data">Εκκαθάριση δεδομένων</string>
   <string name="manage_space_error">Μερικά αρχεία δεν μπορούν να διαγραφούν.</string>
   <string name="permission_storage_access">Επιπλέον διακαιώματα απαιτούνται για μεταφόρτωση &amp; λήψη αρχείων.</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

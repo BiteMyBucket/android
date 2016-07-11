@@ -411,4 +411,6 @@
   <string name="manage_space_error">某些檔案無法被刪除.</string>
   <string name="permission_storage_access">需要額外的權限來上傳或下傳檔案.</string>
   <string name="local_file_not_found_toast">在本地的檔案系統中找不到這個檔案</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

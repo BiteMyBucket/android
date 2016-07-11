@@ -411,4 +411,6 @@
   <string name="manage_space_error">いくつかのファイルがクリアできませんでした。</string>
   <string name="permission_storage_access">ファイルをダウンロード &amp; アップロードする追加の権限が必要です。</string>
   <string name="local_file_not_found_toast">ローカルファイルにファイルがありません</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

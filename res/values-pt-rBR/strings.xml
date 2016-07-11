@@ -413,4 +413,6 @@
   <string name="manage_space_error">Alguns arquivos não puderam ser excluído.</string>
   <string name="permission_storage_access">Permissões adicionais são necessárias para se enviar e baixar arquivos &amp; .</string>
   <string name="local_file_not_found_toast">O arquivo não foi encontrado no sistema de arquivos local</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

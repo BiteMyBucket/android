@@ -201,4 +201,6 @@
   <string name="prefs_category_accounts">Konten</string>
   <string name="move_choose_button_text">Auswählen</string>
   <string name="prefs_category_security">Sicherheit</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

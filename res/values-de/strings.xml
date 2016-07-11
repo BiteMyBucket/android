@@ -413,4 +413,6 @@
   <string name="manage_space_error">Einige Dateien konnten nicht gelöscht werden.</string>
   <string name="permission_storage_access">Du hast nicht die erforderlichen Rechte, um Dateien hoch- und herunterzuladen.</string>
   <string name="local_file_not_found_toast">Die Datei wurde im lokalen Dateisystem nicht gefunden</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

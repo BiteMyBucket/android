@@ -245,7 +245,7 @@ public class UploadFileOperation extends SyncOperation {
     }
 
     public boolean isSsidRestricted() {
-        return
+        return true;
     }
     public void setOCUploadId(long id){
         mOCUploadId = id;
@@ -459,16 +459,25 @@ public class UploadFileOperation extends SyncOperation {
      */
     private boolean delayForWifi() {
         //Todo sander 1: kode her
-        boolean delayInstantPicture = (
-            isInstantPicture() &&  PreferenceManager.instantPictureUploadViaWiFiOnly(mContext)
-        );
-        boolean delayInstantVideo = (
-            isInstantVideo() && PreferenceManager.instantVideoUploadViaWiFiOnly(mContext)
-        );
+        boolean delayInstantPicture = false;
+        boolean delayInstantVideo = false;
+        if (isInstantPicture()) {
+            delayInstantPicture = (PreferenceManager.instantPictureUploadViaWiFiOnly(mContext) && (!validSsid(mContext)));
+        }
+//        boolean delayInstantPicture = (
+//            isInstantPicture() &&  PreferenceManager.instantPictureUploadViaWiFiOnly(mContext)
+//        );
+//        boolean delayInstantVideo = (
+//            isInstantVideo() && PreferenceManager.instantVideoUploadViaWiFiOnly(mContext)
+//        );
+
         return (
-            (delayInstantPicture || delayInstantVideo) &&
-            !ConnectivityUtils.isAppConnectedViaWiFi(mContext)
-        );
+            (delayInstantPicture || delayInstantVideo) && (!ConnectivityUtils.isAppConnectedViaWiFi(mContext)));
+//        );
+    }
+
+    private boolean validSsid(Context mContext) {
+        return false;
     }
 
 

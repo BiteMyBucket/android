@@ -392,4 +392,6 @@
   <string name="manage_space_clear_data">清除数据</string>
   <string name="manage_space_error">某些文件无法删除。</string>
   <string name="permission_storage_access">没有权限上传和下载文件。</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>

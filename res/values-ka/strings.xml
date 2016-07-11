@@ -5,4 +5,6 @@
   <string name="auth_password">პაროლი</string>
   <string name="sync_string_files">ფაილები</string>
   <string name="filedetails_download">გადმოწერა</string>
+  <string name="instant_upload_on_wifi_ssid_restriction">Wifi SSID restriction for pictures</string>
+  <string name="instant_video_upload_on_wifi_ssid_restriction">Videos SSID restriction (case sensitive)</string>
 </resources>
